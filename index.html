@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>String Methods </title>
+</head>
+<body>
+
+  <div>
+<!-----length-->
+<h3>String length</h3>
+ 
+  <input type="text" id="length" placeholder="string length">
+<button onclick="length()">check</button>
+<div id="lengthresult"></div>
+  </div>
+
+
+
+
+
+<div>
+<h3>String concatination</h3>
+<!---concat-->
+    <input id="firstname" placeholder="string1">
+    <br>
+    <br>
+   <input  id="secondname" placeholder="string2">
+    <button onclick="concate()">check</button>
+    <p id="concat"></p>  
+   
+</div>
+
+    <!--lowercase-->
+    <div>
+<h3>Lowercase</h3>
+
+  <input type="text" id="lowercase" placeholder="lowercase">
+<button onclick="lowercase()">check</button>
+<div id="lowercaseresult"></div>
+    </div>
+
+<!----uppercase-->
+<div>
+  <h3>Uppercase</h3>
+
+  <input type="text" id="uppercase" placeholder="uppercase">
+<button onclick="uppercase()">check</button>
+<div id="uppercaseresult"></div>
+</div>
+
+
+<!--string slice-->
+<div>
+<h3>String slice</h3>
+      <input type="text" id="slice" placeholder="slice text">
+     <br>
+     <br>
+      <input type="text" id="slice1" placeholder="startvalue">
+      <br>
+      <br>
+      <input type="text" id="slice2" placeholder="endvalue">
+      <button id="sliceresult" type="button">check</button>
+
+      <p id="strslice"></p>
+</div>
+      <!---string substring-->
+      <div>
+        <h3>substring</h3>
+      <input type="text" id="substring"  placeholder="Enter any text">
+     <br>
+     <br>
+      <input type="text" id="subs1" placeholder=" start value">
+      <br>
+      <br>
+      <input type="text" id="subs2" placeholder=" end value">
+      <button id="substringresult" type="button">check</button>
+     
+      <p id="strsub"></p>
+      </div>
+
+      <!--string substr-->
+      <h3>substr</h3>
+      <input type="text" id="substr"  placeholder="Enter any text">
+    <br>
+    <br>
+      <input type="text" id="ss1" placeholder="value start"> 
+      <br>
+      <br>
+      <input type="text" id="ss2" placeholder="value end">
+      
+      <button id="valuebtn3" type="button">check</button>
+    
+      <p id="sstr"></p>
+
+     
+
+
+      <!--replace-->
+      <h3>replace</h3>
+       <input type="text" id="replace" placeholder="Enter any text">
+       <br>
+       <br>
+        <input type="text" id="toreplace" placeholder="to replace">
+        <br>
+        <br>
+        <input type="text" id="revalue" placeholder="replace"> 
+        <button id="valuebtn4" type="button">check</button>
+       <p id="strreplace"></p>
+      </div>
+   
+
+      <!--replaceall-->
+      <div>
+      <h3>replaceall</h3>
+
+        <input type="text" id="replaceAll" class="my-2" placeholder="Enter any text">
+        <br>
+        <br>
+        <input type="text" id="toreplaceAll" placeholder="to replace all">
+        <br>
+        <br>
+        <input type="text" id="revalueAll" placeholder="replace all"> 
+        <button id="valuebtn5" type="button">check</button>
+       
+        <p id="strreplaceAll"></p>
+      </div>
+
+
+
+       <!---split-->
+       <div>
+       <h3>split </h3>
+       <input type="text" id="split" placeholder="Enter any text">
+       <br>
+       <br>
+       <input type="text" id="spliting" placeholder="Enter value">
+      
+       <button id="valuebtn15" type="button">check</button>
+       
+       <p id="strsplit"></p>
+     </div>
+     <!--charAt-->
+     <div>
+<h3>CharAt</h3>
+<input type="text" id="charAt" placeholder="Enter any text">
+<br>
+<br>
+<input type="text" id="char" placeholder="Enter value">
+ <button id="charatresult" type="button">check</button>
+  
+  <p id="strchar"></p>
+</div>
+
+ <!--pad start--> 
+<div>
+  <h3>padstart</h3>
+  <input type="text" id="padStart"  placeholder="value here">
+ <br>
+ <br>
+  <input type="text" id="padlen1" placeholder="Enter Value">
+  <br>
+  <br>
+  <input type="text" id="padS" placeholder="Enter Pad Length">
+  <button id="padsresult" type="button">check</button>
+
+  <p id="strPadS"></p>
+</div>
+
+<!--padend-->
+<div>
+  <h3>padend</h3>
+  <input type="text" id="padEnd" placeholder="value ">
+<br>
+<br>
+  <input type="text" id="padlen2" placeholder="Enter Value">
+  <br>
+  <br>
+  <input type="text" id="padE" placeholder="Enter Pad Length">
+  <button id="paderesult" type="button">check</button>
+ 
+  <p id="strPadE"></p>
+</div>
+
+<!--trim-->
+<div>
+  <h3>trim</h3>
+  <input type="text" id="trim" placeholder="Enter any text">
+
+  <button id="trimresult" type="button">check</button>
+ 
+  <p id="strtrim"></p>
+
+</div>
+<!--trim start-->
+<div>
+ <h3>trim start</h3>
+  <input type="text" id="trimStart"  placeholder="Enter any text">
+   <button id="trimsresult" type="button">check</button>
+ 
+  <p id="strtrimS"></p>
+</div>
+<!--trim end-->
+<div>
+<h3>trim end</h3>
+<input type="text" id="trimEnd"  placeholder="Enter any text">
+<button id="trimeresult" type="button">check</button>
+<p id="strtrimE"></p>
+</div>
+
+<!--repeat-->
+<div>
+<h3>repeat</h3>
+
+
+<input type="text" id="repeatString" placeholder="Enter a string">
+<br>
+<br>
+
+<input type="number" id="repeatCount" min="1" placeholder="repeatCount">
+
+<button onclick="repeatString()">check</button>
+
+<p id="result"></p>
+</div>
+<!--indexof-->
+<h3>indexof</h3>
+
+
+<input type="text" id="inputString" placeholder="enter a string">
+<br>
+<br>
+
+<input type="text" id="substringToFind" placeholder="substring to find">
+
+<button onclick="indexof()">check</button>
+
+<p id="indexofresult"></p>
+
+
+
+
+
+
+   
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
